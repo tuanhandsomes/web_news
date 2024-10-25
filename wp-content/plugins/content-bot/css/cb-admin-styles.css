@@ -1,0 +1,746 @@
+/* Admin pages */
+.cbaiPageWrapper{
+    background: #fff;
+    padding: 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 1px solid #d0d3db !important;
+}
+
+.cbaiPageHead{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+
+.cbaiPageHeading{
+    display: flex;
+    align-items: center;
+}
+
+.cbaiPageHead img{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.cbaiPageHead h1{
+    margin: 0;
+}
+
+.cbaiPageWrapper .submit {
+    padding: 0 !important;
+}
+
+.cbai-input{
+    border: 1px solid #d0d3db !important;
+    margin-bottom: 20px;
+}
+
+.cbai-input::placeholder {
+    color: #ccc !important;
+}
+
+input#cbai_apikey,
+select#cbai_model{
+    margin: 0 !important;
+}
+
+.cbai-input-description {
+    font-size: 12px;
+}
+
+#cbai_unlink {
+    background: #dc3545;
+    border-color: #dc3545;
+}
+
+#cbai_unlink:hover{
+    background: #ac2835;
+}
+
+
+
+/* Help page */
+.cbaiRow {
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+
+.cbaiRow:last-of-type{
+    margin-bottom: 0;
+}
+
+.cbaiOverviewContainer{
+    background: #ececf4;
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid #d0d3db;
+    margin-bottom: 40px !important;
+}
+
+#cbaiHelpPage .cbaiRow {
+    background: #f6f6f6;
+    border: 1px solid #d0d3db;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.cbaiOverviewContainer .cbaiAnswer {
+    padding: 0;
+}
+
+.cbaiQuestion{
+    font-weight: bold;
+}
+
+.cbaiAnswer {
+    padding: 0 22.5px;
+    font-size: 13px;
+}
+
+ul.cbaiOverviewQuestionsList {
+    list-style: inside;
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+
+.cbaiGif{
+    border: 1px solid #ccc;
+    max-width: calc(100% - 100px);
+    height: 500px;
+}
+
+.cbaiGif-half{
+    max-width: calc(50% - 100px);
+    margin-right: 25px;
+}
+
+.cbaiGifContainer{
+    display: flex;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1225px){
+    .cbaiGifContainer{
+        flex-direction: column;
+    }
+
+    .cbaiGif {
+        max-width: 100% !important;
+        height: auto;
+        width: max-content;
+    }
+
+    .cbaiGif-half{
+        margin-right: 0 !important;
+        margin-bottom: 25px;
+    }
+}
+
+
+
+/* Getting Started page -> Sits in the actual file */
+
+/* Welcome page */
+div#content-bot-welcome-page {
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+:not(.cbai-no-flex) .cbai-flex {
+    display: flex;
+    align-items: center;
+}
+
+.feature-heading{
+    padding: 0 30px;
+    font-weight: 400 !important;
+}
+
+.feature-section {
+    text-align: center;
+}
+
+.cbai-flex-grid__item {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cbai-flex-grid__item .cbai-card {
+    height: 100%;
+}
+
+.cbai-card {
+    display: block !important;
+}
+
+.cbai-card {
+    background: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 3px;
+    position: relative;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 3px rgb(0 0 0 / 4%);
+}
+
+
+
+/* Instruct page */
+#cbaiInstructPage{
+    padding: 0;
+    height: calc(100vh - 80px);
+    /* height: 100%; */
+}
+
+#cbaiInstructPage .cbaiPageHead{
+    padding: 20px;
+    margin-bottom: 0 !important;
+    border-radius: 5px;
+    border-bottom: 1px solid #e3e6f0;
+    background: #fff !important;
+}
+
+.cbaiInstructMainContainer{
+    background: #f8f9fc;
+    padding-bottom: 1px;
+    border-radius: 5px;
+    height: calc(100% - 92px);
+    /* height: 100%; */
+}
+
+.cbaiInstructDisplay{
+    /* border-bottom: 1px solid #d0d3db; */
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+.cbaiInstructDisplayWrapper {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.cbaiInstructRow {
+    display: flex;
+    border-bottom: 1px solid #e3e6f0;
+    background: #fff;
+}
+
+.cbaiInstructRow:nth-child(2n) {
+    background: #f8f9fc;
+}
+
+.cbaiInstructRowInner {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+@media screen and (max-width: 1300px){
+    .cbaiInstructRowInner{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .cbaiInstructRowInner{
+        width: 100%;
+    }
+}
+
+.cbaiInstructDisplay .cbaiInstructRow:last-of-type {
+    margin: 0!important;
+}
+
+.cbaiGpt4SlowNote {
+    font-size: 12px !important;
+    font-style: italic;
+    margin-top: 20px !important;
+}
+
+
+.cbaiInstructRowInner{
+    flex-direction: row;
+}
+
+.cbaiInstructRowIcon {
+    margin: 0 15px;
+    margin-left: 0!important;
+    padding-top: 5px;
+}
+
+.cbaiInstructRowIcon img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.cbaiInstructRowOutput {
+    padding: 15px;
+    width: 100%;
+}
+
+.cbaiInstructRowOutput p {
+    display: block;
+    font-size: 16px;
+    color: #3a3b45;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    margin: 0
+}
+
+.cbaiInstructBottomRow {
+    margin: 0 20px 20px 20px;
+    position: absolute;
+    width: calc(100% - 60px);
+    bottom: 67.5px;
+    /* transform: translateY(-65px); */
+}
+
+.cbaiInstructInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#cbaiInstructInputField {
+    font-size: 16px;
+    padding: 10px 70px 10px 15px!important;
+    width: 100%;
+    margin: 0;
+    resize: none;
+    overflow: hidden;
+    height: 45px;
+    min-height: 45px;
+    max-height: 600px;
+}
+
+.cbaiInstructInputExtras .cbai-input{
+    padding: 5px 15px !important;
+    width: 100%;
+}
+
+.cbaiVariable {
+    color: #db2fdb;
+}
+
+.cbaiVariableGroup {
+    margin-bottom: 10px;
+}
+
+.cbaiVariableGroup:last-of-type{
+    margin-bottom: 0 !important;
+}
+
+#cbaiLibraryButton {
+    position: absolute;
+    right: 75px;
+}
+
+#cbaiInstruct {
+    position: absolute;
+    right: 45px;
+}
+
+#cbaiInstruct span {
+    font-weight: bold;
+}
+
+.cbaiInstructButtonIcon {
+    color: #ccc;
+    text-decoration: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cbaiInstructButtonIcon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+a#cbaiAdvancedOptions {
+    margin-left: 15px;
+}
+
+a#cbaiVariables {
+    margin-right: 15px;
+}
+
+.cbaiInstructInputExtras {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #d0d3db;
+    border-radius: 5px;
+    padding: 18px;
+    bottom: 65px;
+    left: 35px;
+    color: #858796;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important
+}
+
+.cbaiInstructInputExtras .cbai-input:last-of-type{
+    margin-bottom: 0 !important;
+}
+
+.cbaiInstructInputExtrasNone {
+    margin: 5px 0 0 0;
+}
+
+.cbai-dot-flashing {
+    position: relative;
+    left: 30px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #db2fdb4d;
+    color: #db2fdb4d;
+    animation: dot-flashing 1s infinite linear alternate;
+    animation-delay: .5s
+}
+
+.cbai-dot-flashing::before,.cbai-dot-flashing::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0
+}
+
+.cbai-dot-flashing::before {
+    left: -30px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #db2fdb4d;
+    color: #db2fdb4d;
+    animation: cbai-dot-flashing 1s infinite alternate;
+    animation-delay: 0s
+}
+
+.cbai-dot-flashing::after {
+    left: 30px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #db2fdb4d;
+    color: #db2fdb4d;
+    animation: cbai-dot-flashing 1s infinite alternate;
+    animation-delay: 1s
+}
+
+@keyframes cbai-dot-flashing {
+    0% {
+        background-color: #db2fdbbb
+    }
+
+    50%,100% {
+        background-color: #db2fdb4d
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .cbaiInstructLeftCol{
+        width: 70% !important;
+    }
+    .cbaiInstructRightCol{
+        width: 30% !important;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .cbaiInstructLeftCol{
+        width: 60% !important;
+    }
+    .cbaiInstructRightCol{
+        width: 40% !important;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .cbaiInstructLeftCol{
+        width: 50% !important;
+    }
+    .cbaiInstructRightCol{
+        width: 50% !important;
+    }
+    .cbaiInstructInputOptions{
+        flex-direction: column !important;
+        align-items: start !important;
+    }
+    .cbaiInstructBottomRow{
+        position: relative;
+        width: calc(100vw - 97.5px) !important;
+    }
+    #cbaiInstruct{
+        float: right;
+    }
+}
+
+@media screen and (max-width: 678px){
+    .cbaiInstructLeftCol{
+        width: 100% !important;
+    }
+    .cbaiInstructRightCol{
+        display: none;
+    }
+}
+
+.cbaiInstructAdvancedOptionsContainer {
+    background: #666666aa;
+    position: absolute;
+    z-index: 9;
+    height: calc(100% - 175px);
+    width: calc(100% - 20px);
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cbaiInstructAdvancedOptionsModal {
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 18px;
+    color: #858796;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+}
+
+.cbaiInstructAdvancedOptionsModalHead, .cbaiInstructInputExtrasHead {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#cbaiInstructAdvancedOptionsModalClose:hover, #cbaiInstructInputExtrasClose:hover {
+    cursor: pointer;
+    color: #555;
+}
+
+.cbaiInstructAdvancedOptionsModal label {
+    display: block;
+    width: fit-content;
+    margin-top: 10px;
+    margin-bottom: 2.5px;
+}
+
+.cbaiLabelPill {
+    background: #e3e6f0;
+    border: 1px solid #e3e6f0;
+    border-radius: 5px;
+    padding: 2.5px 5px;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.cbaiInstructAdvancedOptionsModal select {
+    width: 100%;
+    max-width: unset !important;
+}
+
+.cbaiOptionGroup {
+    margin-bottom: 12px;
+}
+
+.cbaiOptionGroup:last-of-type{
+    margin-bottom: 0 !important;
+}
+
+.cbaiInstructInputExtras input.cbai-input, .cbaiInstructAdvancedOptionsModal select {
+    font-size: 14px;
+    padding: 5px 10px !important;
+}
+
+.cbaiFilterPill {
+    font-size: 14px;
+    background: #fff;
+    border: 1px solid #d0d3db;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+#cbaiLibrary {
+  text-align: left;
+  width: 300px;
+  min-width: 300px;
+  position: fixed;
+  top: 0;
+  right: -300px;
+  z-index: 99;
+  transition: 1s ease;
+  background: #f8f9fc !important;
+  box-shadow: 0px 6px 5px 2px #00000012;
+  height: 100vh;
+  max-height: 99.5vh;
+}
+
+#cbaiLibrary.open {
+  right: 0;
+}
+
+#cbaiLibraryInner {
+  height: 100%;
+  max-height: 100%;
+}
+  
+#cbaiLibraryHead, #cbaiLibraryBody{
+  padding: 10px;
+}
+
+#cbaiLibraryHead{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+#cbaiLibraryHead h5{
+  margin: 0 !important;
+}
+
+#cbaiLibraryHead #cbaiLibraryClose {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+#cbaiLibraryHead #cbaiLibraryClose:hover {
+  color: #555;  
+}
+
+#cbaiLibraryBody{
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+  max-height: calc(100% - 45px);
+}
+
+#cbaiLibrary .instructionsMainWrapper{
+  padding-bottom: 10px;
+}
+
+#cbaiLibrary .categorySection {
+  margin-top: 0.5rem    
+}
+
+#cbaiLibrary .instructionContainer {
+  margin-top: 0.5rem !important;
+}
+
+#cbaiLibrary .instructionContainer .instructionTitle {
+  pointer-events: none !important;
+}
+
+#cbaiLibrary .instructionContainer .contentBox {
+  padding: 0.2rem 0.5rem;
+}
+
+#cbaiLibrary .instructionContainer .contentBoxHeader{
+  font-size: 0.7rem;
+  padding-top: 0;
+  padding-bottom: 0.2rem;
+} 
+
+#cbaiLibrary .instructionContainer .instructionCardIconContainer, #cbaiLibrary .instructionContainer .favourite-icon {
+  display: none;
+}
+
+#cbaiLibrary .instructionContainer .contentBoxBody{
+  height: fit-content;
+}
+
+#cbaiLibrary .instructionContainer .upvotes {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 0.65rem;
+}
+
+#cbaiLibrary .instructionContainer .btn {
+  font-size: 0.7rem;
+  padding:  0.2rem 0.5rem;
+}
+
+#cbaiLibrary .categorySectionInstructionsMore {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem; 
+  font-size: 0.8rem;
+  text-align: center;
+  border-bottom: 1px solid var(--cb-editor-color-grey-200)
+}
+
+#cbaiLibrary .cbaiLibraryFilterRow {
+  height: fit-content !important;
+  margin-bottom: 0.5rem !important;
+
+  flex-direction: column !important;
+  padding-top: 0;
+}
+
+#cbaiLibrary .cbaiLibraryFilterRow > div{
+  width: 100% !important; 
+  min-width: 100%;
+  max-width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+
+#cbaiLibrary .cbaiLibraryFilterRow .tool-search-container {
+  position: relative
+}
+
+#cbaiLibrary .cbaiLibraryFilterRow .tool-search-container i {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  padding: 7px;
+}
+
+#cbaiLibrary .cbaiLibraryFilterRow .tool-search-container input {
+  padding-left: 35px;
+  font-size: 0.8rem;
+}
+
+#cbaiLibrary .cbaiLibraryFilterRow .instructionFilterContainer strong,
+#cbaiLibrary .cbaiLibraryFilterRow .instructionOtherFilterContainer  strong{
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 0.2rem;
+}
+
+#cbaiLibrary .cbaiLibraryFilterRow .instructionFilterContainer{
+  margin-bottom: 0 !important;    
+}
+
+#cbaiLibrary .cbaiLibraryFilterRow .instructionOtherFilterContainer{
+  margin-top: 0.5rem !important;
+}
+
+#cbaiLibrary .cbaiLibraryFilterRow span.filter{
+  margin-bottom: 0.5rem;
+}
+
+#cbaiLibrary .cbaiLibraryFilterRow .filterSeparator{
+  display: none;
+}
+
+#cbaiLibrary .contentBoxSectionHeader {
+  font-weight: 600;
+  font-size: 16px !important;
+  margin-top: 1rem;
+  margin-bottom: 0 !important;
+}

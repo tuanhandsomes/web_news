@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 125.698 95.033" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1,.cls-2{fill:#fff;}.cls-1{stroke-miterlimit:10;stroke-width:31px;stroke:url(#New_Gradient_Swatch);}</style>
+    <linearGradient id="New_Gradient_Swatch" x1="125.17" y1="47.5" x2="0" y2="47.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd35d"/>
+      <stop offset="0.34" stop-color="#f1938e"/>
+      <stop offset="0.79" stop-color="#e045cb"/>
+      <stop offset="1" stop-color="#d926e3"/>
+    </linearGradient>
+  </defs>
+  <title>Asset 2</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" d="M99.16,61.21h0A10.54,10.54,0,0,1,88.64,50.7V46.13A10.55,10.55,0,0,1,99.16,35.61h0a10.55,10.55,0,0,1,10.51,10.52V50.7A10.54,10.54,0,0,1,99.16,61.21ZM36.53,50.7V46.13A10.55,10.55,0,0,0,26,35.61h0A10.55,10.55,0,0,0,15.5,46.13V50.7A10.54,10.54,0,0,0,26,61.21h0A10.54,10.54,0,0,0,36.53,50.7Zm60.34-3.2h0a32.09,32.09,0,0,0-32-32H60.3a32.09,32.09,0,0,0-32,32h0a32.09,32.09,0,0,0,32,32h4.57A32.09,32.09,0,0,0,96.87,47.5Z" style=""/>
+      <rect x="27.5" y="17.5" width="70" height="60" rx="27.5" style="fill: rgb(255, 255, 255);"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,272 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: News Elementor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-29 10:37+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1\n"
+"X-Domain: news-elementor"
+
+#: inc/plugin-installer.php:69
+msgid " - premium plugin not required to install"
+msgstr ""
+
+#: inc/plugin-installer.php:48
+msgid " plugin activated"
+msgstr ""
+
+#: inc/plugin-installer.php:65
+msgid " plugin already activated"
+msgstr ""
+
+#: inc/plugin-installer.php:61
+msgid " plugin installed and activated"
+msgstr ""
+
+#: compatibility/elementor/compatibility.php:168
+msgid "\"Elementor\""
+msgstr ""
+
+#: compatibility/elementor/compatibility.php:169
+msgid "\"News Kit Elementor Addons\""
+msgstr ""
+
+#: compatibility/elementor/compatibility.php:166
+#, php-format
+msgid "%1$s has many more to offer you with %2$s and %3$s "
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:63
+msgid ", "
+msgstr ""
+
+#: 404.php:29
+msgid "404"
+msgstr ""
+
+#. 1: Plugin name 2: Elementor
+#: compatibility/elementor/compatibility.php:173
+#, php-format
+msgid ""
+"Are you ready to create an amazing website using \"%1$s\" ? Click start with "
+"elementor to install and activate \"%2$s\" and \"%3$s\" plugins. \"%2$s\" is "
+"the elementor compatibility kit for the current theme."
+msgstr ""
+
+#. Author of the theme
+msgid "BlazeThemes"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:100 template-parts/content-page.php:39
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/plugin-installer.php:29 compatibility/elementor/compatibility.php:175
+msgid "Elementor"
+msgstr ""
+
+#: compatibility/elementor/compatibility.php:174
+msgid "Elementor Page builder"
+msgstr ""
+
+#: inc/plugin-installer.php:73
+msgid "Error while trying to install or active the plugin."
+msgstr ""
+
+#: compatibility/elementor/compatibility.php:178
+msgid "How it works?"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://blazethemes.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://blazethemes.com/news-kit-elementor-addons/"
+msgstr ""
+
+#: 404.php:34
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:83
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:70
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: header.php:64
+msgid "MENU"
+msgstr ""
+
+#. Name of the theme
+msgid "News Elementor"
+msgstr ""
+
+#. Description of the theme
+msgid "News Elementor is a elementor based complete news template."
+msgstr ""
+
+#: compatibility/elementor/compatibility.php:167
+msgid "News Elementor Theme"
+msgstr ""
+
+#: inc/plugin-installer.php:33 compatibility/elementor/compatibility.php:176
+msgid "News Kit Elementor Addons"
+msgstr ""
+
+#: inc/plugin-installer.php:37
+msgid "News Kit Elementor Addons Pro"
+msgstr ""
+
+#: single.php:39
+msgid "Next:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: 404.php:30
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: template-parts/content-single.php:41 template-parts/content-page.php:25
+#: template-parts/content.php:41
+msgid "Pages:"
+msgstr ""
+
+#: inc/plugin-installer.php:25
+msgid "Plugin to install not found"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:46
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. 1: list of categories.
+#: inc/template-tags.php:66
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: single.php:38
+msgid "Previous:"
+msgstr ""
+
+#: functions.php:52
+msgid "Primary"
+msgstr ""
+
+#: compatibility/elementor/compatibility.php:146
+msgid "Progressing"
+msgstr ""
+
+#. %s: CMS name, i.e. WordPress.
+#: footer.php:32
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: compatibility/elementor/compatibility.php:147
+msgid "Redirecting"
+msgstr ""
+
+#. %s: search query.
+#: search.php:34
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: compatibility/elementor/compatibility.php:178
+msgid "Start With News Kit Elementor Addons"
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:73
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. 1: Theme name, 2: Theme author.
+#: footer.php:37
+#, php-format
+msgid "Theme : %1$s by %2$s"
+msgstr ""
+
+#. 1: Plugin name 2: Elementor
+#: compatibility/elementor/compatibility.php:165
+msgid "Welcome to News Elementor"
+msgstr ""

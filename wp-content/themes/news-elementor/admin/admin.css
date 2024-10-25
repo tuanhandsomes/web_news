@@ -1,0 +1,109 @@
+/* NOTICE STYLES */
+    .news-elementor-admin-notice {
+        padding: 20px 30px 33px;
+        background-color: #fff;
+        margin: 15px 20px 0px 2px;
+        box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 14%);
+        -webkit-box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 14%);
+        -moz-box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 14%);
+
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        position: relative;
+    }
+
+    .news-elementor-admin-notice .dismiss-notice{
+        color: #f73859;
+        display: block;
+        padding: initial;
+        position: absolute;
+        bottom: 8px;
+        right: 35px;
+        border: none;
+        background: transparent;
+        text-decoration: underline;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .news-elementor-admin-notice .dismiss-notice:hover{
+        cursor: pointer;
+        font-weight: 600;
+
+    }
+
+
+
+    body.news-kit_page_news-kit-elementor-addons-theme-builder,
+    body.news-kit_page_news-kit-elementor-addons-blocks,
+    body.toplevel_page_news-kit-elementor-addons {
+        background-color: #f6f6fb;
+    }
+
+    .news-elementor-admin-notice .news-elementor-text-wrap {
+        flex: 0 1 60%;
+    }
+
+    .news-elementor-admin-notice .news-elementor-image-wrap {
+        flex: 0 1 40%;
+        text-align: right;
+    }
+
+    .news-elementor-admin-notice .news-elementor-image-wrap img{
+        width: 35%;
+    }
+
+    .news-elementor-admin-notice .notice-heading {
+        margin: 0 0 12px;
+        font-family: 'Roboto';
+    }
+
+    .news-elementor-admin-notice .nekit_heading_admin {
+        font-size: 25px;
+        padding-bottom: 25px;
+        display: block;
+    }
+
+    .news-elementor-admin-notice .notice-description,
+    .news-elementor-admin-notice .notice-description strong {
+        margin: 0 0 20px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .news-elementor-admin-notice .notice-actions button {
+        border: none;
+        background-color: #0073aa;
+        padding: 10px 15px;
+        margin-right: 15px;
+        border-radius: 3px;
+        color: #fff;
+        font-family: 'Roboto';
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+        cursor: pointer;
+    }
+
+    .news-elementor-admin-notice .notice-actions button:hover {
+        background-color: #005177;
+    }
+
+    .news-elementor-admin-notice  .nekit_admin_subhead {
+        color: #585858;
+        font-size: 14px; 
+    }
+
+    .news-elementor-admin-notice  .nekit_admin_subhead strong {
+        font-size: 16px;
+        color: #393939;
+        padding-right: 3px;
+    }
+
+
+
+    

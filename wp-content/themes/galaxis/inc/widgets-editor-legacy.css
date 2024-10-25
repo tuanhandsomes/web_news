@@ -1,0 +1,18 @@
+body.galaxis-widgets-editor,
+body.galaxis-widgets-editor button,
+body.galaxis-widgets-editor input,
+body.galaxis-widgets-editor select,
+body.galaxis-widgets-editor optgroup,
+body.galaxis-widgets-editor textarea,
+body.galaxis-widgets-editor h1,
+body.galaxis-widgets-editor h2,
+body.galaxis-widgets-editor h3,
+body.galaxis-widgets-editor h4,
+body.galaxis-widgets-editor h5,
+body.galaxis-widgets-editor h6 {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+body.galaxis-widgets-editor {
+	background: #ffffff !important;
+}

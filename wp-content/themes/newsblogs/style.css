@@ -1,0 +1,118 @@
+/*
+Theme Name: Newsblogs
+Theme URI: 
+Author: Themeansar
+Author URI: https://themeansar.com
+Description: Newsblogs is a fast, clean, modern-looking Best Responsive News Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Newsblogs is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. Newsblogs is SEO friendly, WPML,Gutenberg, translation and RTL ready. Live preview : https://demos.themeansar.com/newspaperup/newsblogs/ and documentation at https://docs.themeansar.com/docs/newspaperup/
+Version: 0.4
+Requires PHP: 7.0
+Requires at least: 5.4
+Tested up to: 6.6
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: newspaperup
+Text Domain: newsblogs
+Tags: blog, portfolio, news, grid-Layout, one-column, two-columns, three-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks
+
+Newsblogs WordPress Theme is child theme of Newspaperup, Copyright 2024 Themeansar
+Newsblogs is distributed under the terms of the GNU General Public License v3
+
+Newsblogs is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+:root{
+    --bxbra: 4px ;
+    --Fontheading: "Libre Baskerville", sans-serif;
+    --Fontbody: "Epilogue", sans-serif;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-weight: 700;
+}
+.bs-blog-post .title, .bs-widget-title.one .title, .widget_block .wp-block-heading, .widget_block .wp-block-search__label, .site-branding-text .site-title, .bs-latest-news .bn_title .title{
+    font-weight: 700;
+}
+.mainfeatured.two .multi-post-widget .inner_columns{
+    gap: 1.5rem;
+}
+.mainfeatured.two .bs-blog-post.three.lg {
+    height: 500px;
+    border-radius: var(--bxbra);
+}
+.mainfeatured.two .multi-post-widget .bs-blog-post.three.bsm {
+    height: 233.5px;
+    border-radius: var(--bxbra);
+}
+.mainfeatured.two .homemain {
+    border-radius: var(--bxbra);
+}
+.right-nav .msearch, .right-nav .switch{
+    display: none !important;
+}
+.navbar-wp nav{
+    justify-content: center;
+}
+.bs-widget-title.one .title, .widget_block .wp-block-heading, .widget_block .wp-block-search__label{
+    padding: 0;
+}
+.widget_block .wp-block-heading, .widget_block .wp-block-search__label{
+    padding-right: 10px;
+}
+.bs-widget-title.one .title span, .widget_block .wp-block-heading span, .widget_block .wp-block-search__label span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.right-nav .subscribe-btn{
+    align-items: baseline;
+}
+.bs-blog-post.single .small.single, .bs-blog-post .bs-blog-thumb + .small{
+    padding-top: 20px;
+}
+.screen-reader-text{
+    transition: none;
+}
+.bs-menu-full .main{
+    padding: 10px 0;
+}
+.bs-menu-full .logo{
+    padding: 0;
+}
+.bs-blog-thumb.lg{
+    height: 300px;
+}
+#list.d-grid{
+    grid-gap: 50px;
+}
+.bs-blog-post, .bs-card-box, .wd-back {
+    border: 1px solid var(--border-color);
+    border-radius: var(--bxbra);
+}
+.bs-blog-post .small, .list-blog.bs-blog-post{
+    padding: 16px;
+}
+.bs-blog-post.single, .bs-card-box, .wd-back{
+    padding: 20px;
+}
+.list-blog.bs-blog-post:has(.bs-blog-thumb), .bs-blog-post.single .small{
+    padding: 0;
+}
+.bs-info-author-block{
+    border-width: 1px;
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1400px;
+    }
+}
+@media (max-width: 767.98px) { 
+    header .site-branding-text {
+      text-align: start;
+    }
+    .list-blog.bs-blog-post .bs-blog-thumb {
+        height: 300px;
+        margin-bottom: 0px;
+    }
+}

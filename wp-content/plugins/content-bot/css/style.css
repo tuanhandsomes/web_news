@@ -1,0 +1,114 @@
+/* Gutenberg block sidebar related styling */
+li.content-bot-rating-li {
+    display: inline-block;
+    margin-right: 5px;
+    background-image: url('../img/star-grey.png');
+    height: 20px;
+    width: 20px;
+    background-position: center;
+    background-size: contain;
+}
+li.content-bot-rating-li:hover {
+    cursor:pointer;
+}
+
+.content-bot-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #2f2f2f85;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.content-bot-overlay-img {
+	max-width: 100%;
+    height: auto;
+    position: relative;
+    top: 30%;
+    left: 35px;
+}
+.content-bot-hand-wave {
+    display: inline-block;
+    width: 30px;
+}
+.content-bot-message-green {
+    background-color: #cef1c8;
+    padding: 5px;
+}
+p#content-bot-limit-remaining {
+    font-size: 0.9em;
+    text-align: center;
+    color: red;
+    background-color: #fbe7e7;
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.content-bot-end-buttons-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cbai-loader-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.cbai-loading-placeholder {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: cbai-placeholder;
+    animation-timing-function: linear;
+    background: #eee;
+    background: linear-gradient(to right,#eee 8%,#ddd 18%,#eee 33%);
+    background-size: 1200px 100px;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 7.5px
+}
+
+.cbai-loader-container .loading-placeholder:last-of-type {
+    width: 30%
+}
+
+@keyframes cbai-placeholder {
+    0% {
+        background-position: -600px 0
+    }
+
+    100% {
+        background-position: 600px 0
+    }
+}
+
+.cbai-rephrasing-overlay{
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    animation: cbai-blink 2s linear infinite;
+}
+
+.cbai-rephrased-content{
+    margin-top: 0 !important;
+}
+
+@keyframes cbai-blink {
+    0% {
+        opacity: 0;
+    }
+
+
+    50% {
+        opacity: 0.85;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
